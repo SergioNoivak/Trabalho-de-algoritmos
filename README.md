@@ -4,7 +4,7 @@ O sistema é responsável para guardar dados dos clientes em disco e, durante a 
 ## 1.	Arquivo Dados de arquivo.
  De modo geral, as funções desse arquivo retornam:
 
-<table border="1">
+<table>
 <tr>
 <td><b>Retorno</b></td>
 <td><b>Status</b></td>
