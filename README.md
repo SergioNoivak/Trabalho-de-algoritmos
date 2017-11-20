@@ -21,7 +21,7 @@ O sistema é responsável para guardar dados dos clientes em disco e, durante a 
 </table>
 
 ### 1.1 Detalhes:
-Procedimento init void init(Dados_de_arquivos* n_a), recebe como parâmetro um ponteiro do tipo Dados_de_arquivo, esse ponteiro recebe o nome do arquivo que será aberto ("DATA_clientes.dat”).
+O Procedimento init ´void init(Dados_de_arquivos* n_a)´, recebe como parâmetro um ponteiro do tipo ´Dados_de_arquivo´, esse ponteiro recebe o nome do arquivo que será aberto ("DATA_clientes.dat”).
 Procedimento close void close(Dados_de_arquivos* n_a), recebe como parâmetro um ponteiro do tipo Dados_de_arquivo, fecha o arquivo por meio da função fclose e libera o espaço de memória alocado para o ponteiro por meio da função free.
 Função Valida_arq_cliente int valida_arq_cliente(Dados_de_arquivos* dados_de_arquivo), verifica se o arquivo é valido por meio da condicional, retorna 1 caso arquivo correto ou retorna 0 caso o arquivo não possa ser aberto.
 
